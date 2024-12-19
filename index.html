@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Абдикеримова Роза Сапаргалиевна - Терапевт и Ортодонт</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            background: linear-gradient(to right, #f5f5dc, #d3d3d3);
+            text-align: center;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(to right, #e6d3b1, #c8b09a);
+            color: white;
+            padding: 20px 0;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+     img {
+            width: 100%;
+            max-width: 200px;
+            height: 300px;
+            border-radius: 0%;
+            object-fit: cover;
+            margin: 15px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            margin: 10px 0;
+            color: #5a5a5a;
+        }
+        .button {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            color: white;
+            background: #e6d3b1;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 1.2em;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #c8b09a;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .service-box {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+        .service-box h3 {
+            color: #e6d3b1;
+            font-size: 1.6em;
+            margin-bottom: 10px;
+        }
+        .service-box p, .service-box ul {
+            font-size: 1em;
+            line-height: 1.8;
+            color: #666;
+        }
+        .form-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: left;
+            margin-top: 30px;
+        }
+        form label {
+            font-weight: bold;
+            display: block;
+            margin: 10px 0 5px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        form button {
+            background: #e6d3b1;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        form button:hover {
+            background: #c8b09a;
+        }
+        @media (max-width: 768px) {
+            header {
+                font-size: 1.5em;
+            }
+            .service-box {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .services {
+                flex-direction: column;
+                gap: 20px;
+            }
+            img {
+                max-width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Врач: Абдикеримова Роза Сапаргалиевна
+    </header>
+    <div class="container">
+        <img src="Roza.jpg" alt="Фото врача">
+
+
+        <h4>Терапевт - Ортодонт</h4>
+        <a href="https://wa.me/77478372912" class="button" target="_blank">Записаться на консультацию</a>
+        <div class="services">
+            <div class="service-box">
+                <h3>Терапевтические услуги</h3>
+                <p>Одной из наиболее распространенных проблем, с которой обращаются пациенты, смело можно назвать кариозные поражения различной степени тяжести. Такое заболевание полости рта встречается довольно часто и может возникать в связи со множеством различных причин. Среди наиболее распространенных аспектов, влияющих на образование кариеса, можно назвать:</p>
+
+                <ul>
+                    <li>Недостаточную гигиену ротовой полости;</li>
+                    <li>Слабую зубную эмаль;</li>
+                    <li>Механические повреждения зубов.</li>
+                </ul>
+            </div>
+            <div class="service-box">
+                <h3>Ортодонтия</h3>
+                <p>Достаточно частой проблемой, с которой обращаются к нам пациенты, является неправильный прикус и искривление зубов. Такая проблема оказывает влияние как на эстетическую привлекательность, так и на практические функции. Нарушение прикуса может привести к:</p>
+
+                <ul>
+                    <li>Появлению дефектов речи;</li>
+                    <li>Дискомфорту в процессе жевания;</li>
+                    <li>Дальнейшим деформациям челюстного аппарата.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="form-container">
+            <h2>Связаться с нами</h2>
+            <form id="contactForm">
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" name="name" required>
+                <label for="phone">Ваш телефон</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="message">Сообщение</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const message = document.getElementById('message').value;
+            const telegramBotToken = '7855034786:AAFWmlOLh75lo8lBGPUsc8yYe-I10I5669Q';
+            const chatId = '905078799';
+            const telegramAPI = `https://api.telegram.org/bot${telegramBotToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(`Новая заявка от сайта:\nИмя: ${name}\nТелефон: ${phone}\nСообщение: ${message}`)}`;
+            fetch(telegramAPI, { method: 'GET' })
+                .then(response => response.json())
+                .then(data => {
+                    alert('Сообщение отправлено!');
+                    document.getElementById('contactForm').reset();
+                })
+                .catch(error => {
+                    alert('Ошибка отправки сообщения. Попробуйте снова.');
+                });
+        });
+    </script>
+</body>
+</html>
